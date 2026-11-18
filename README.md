@@ -18,6 +18,15 @@ c. Name: ANDROID_HOME (Note: while installing this I created a folder Sdk separa
 d. Name:ANDROID_SDK_ROOT
    Ex for Value: E:\Programs\AndroidStudio\Android\Sdk
    Note: You will need to provide this path when you open Android Studio for the first time.
+e. Add the below Paths in User Variables,  select Path → Edit → New, and add -
+%JAVA_HOME%\bin
+%NODE_HOME%\node_modules\npm\bin
+%ANDROID_HOME%\emulator\
+%ANDROID_HOME%\build-tools\36.0.0
+%ANDROID_HOME%\cmdline-tools\latest\bin
+E:\Programs\Nodejs-Appium
+E:\npm-global
+Click OK on all windows.
 3.Press Win, search cmd or command prompt
 4.Usually, the C drive path will appear, to change to E drive type in E:
 You can navigate to folders in E drive using cd command like so - cd E:\Programs\
