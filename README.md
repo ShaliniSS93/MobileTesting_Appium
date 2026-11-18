@@ -44,6 +44,8 @@ b.If node versions are available that means node is installed correctly. Otherwi
 c.Then type in-
 npm install -g appium  
 9.For installation of appium in another drive-
+For full explanation use this Prompt for Claude-Explain how to install appium in E folder from the start. This is path of my NODE_HOME -E:\Programs\Nodejs-Appium
+
 a.Point npm to the E drive(Do this only if using npm is installed in another drive-E, Otherwise by default it will get installed in C drive)
 b.Type in commands one by one-
 npm config set prefix E:\npm-global
